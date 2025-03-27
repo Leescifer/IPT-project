@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" href="../css/register.css">
 </head>
+
 <body>
-    
-    
+    <div class="container">
+        <div class="register-section">
+            <h1 class="welcome">Sign Up</h1>
+            <p class="enter-details">Enter your personal data to create your account.</p>
+            <form action="" class="form">
+                <div class="name-section">
+                    <div class="first-name">
+                        <label for="first_name">First Name</label>
+                        <input type="text" placeholder="Type your first name here" id="first_name" name="first_name" required>
+                    </div>
+                    <div class="last-name">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" placeholder="Type your last name here" id="last_name" name="last_name" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Type your email here" id="email" name="email" required>
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Type your password here" id="password" name="password" required>
+                </div>
+                <button type="submit" class="sign-in">Sign Up</button>
+            </form>
+        </div>
+        <div class="banner">
+            <div class="large-logo">Logo</div>
+            <div class="signup-links">
+                <a href="#" class="sign-up">Sign Up</a>
+                <button class="join-us">Join Us</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

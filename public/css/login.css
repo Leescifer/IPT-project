@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Mulish", sans-serif;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     display: grid;
     grid-template-rows: 1fr auto;
@@ -31,7 +32,7 @@ html, body {
 
 .welcome {
     margin-bottom: 10px;
-    font-size:  3rem;
+    font-size: 3rem;
     text-wrap: wrap;
 }
 
@@ -47,7 +48,7 @@ html, body {
     line-height: 2;
 }
 
-.label{
+.label {
     font-size: 1rem;
     font-weight: bold;
     margin: 0 1rem 0 1rem;
@@ -56,20 +57,20 @@ html, body {
 input {
     width: 100%;
     padding: 1.5rem;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
     border: 1px solid #9b9b9b;
     border-radius: 5px;
 }
 
-input::placeholder{
+input::placeholder {
     font-size: 1.1rem;
     color: #aaa;
     font-weight: normal;
 }
 
-input:focus{
+input:focus {
     outline: none;
-    border: 1px solid #333; 
+    border: 1px solid #333;
 }
 
 .options {
@@ -97,12 +98,13 @@ input:focus{
 .options a {
     font-size: rem;
     text-decoration: none;
-    color: #007BFF;
+    color: #4648e5;
     transition: color 0.3s ease;
 }
 
 .options a:hover {
-    color: #0056b3;
+    color: #222222;
+    text-decoration: underline;
 }
 
 @media (max-width: 480px) {
@@ -148,14 +150,14 @@ input:focus{
 }
 
 .footer a {
-    color: #4648e5; /* Gold highlight */
+    color: #4648e5;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
 
 .footer a:hover {
-    color: #ffa500; /* A slightly richer gold on hover */
+    color: #222222;
     text-decoration: underline;
 }
 
@@ -180,7 +182,7 @@ input:focus{
 /* Right Section*/
 .banner {
     flex: 1;
-    background: #ddd;
+    background: #f9f9f9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,7 +191,7 @@ input:focus{
 }
 
 .large-logo {
-    background: #bbb;
+    background: #b9b9b9;
     padding: 80px;
     border-radius: 50%;
     font-size: 24px;
@@ -201,7 +203,8 @@ input:focus{
     right: 20px;
 }
 
-.signup-links a, .signup-links button {
+.signup-links a,
+.signup-links button {
     margin-left: 10px;
     border: none;
     background: none;
@@ -211,7 +214,7 @@ input:focus{
 
 }
 
-.signup-links .sign-up{
+.signup-links .sign-up {
     padding: 10px 20px;
     background: #000000;
     color: #fff;
@@ -219,7 +222,7 @@ input:focus{
     transition: all 0.3s ease;
 }
 
-.signup-links .sign-up:hover{
+.signup-links .sign-up:hover {
     background: transparent;
     color: #000;
     border: 1px solid;
@@ -227,7 +230,7 @@ input:focus{
 }
 
 
-.signup-links .join-us{
+.signup-links .join-us {
     padding: 10px 20px;
     background: transparent;
     color: #000;
@@ -236,7 +239,7 @@ input:focus{
     transition: all 0.3s ease;
 }
 
-.signup-links .join-us:hover{
+.signup-links .join-us:hover {
     background: #000;
     color: #f3f3f3;
     border: 1px solid;
@@ -255,7 +258,7 @@ input:focus{
     .banner {
         order: 1;
     }
-    
+
 }
 
 @media (max-width: 768px) {
@@ -265,8 +268,7 @@ input:focus{
 };
 
 @media (max-width: 480px) {
-   .banner {
-       display: none;
-   }
-   
-}
+    .banner {
+        display: none;
+    }
+};
