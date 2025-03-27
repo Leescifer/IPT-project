@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../images/backgorund.jpg) center/cover no-repeat;
+}
+
+.get-started{
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.started{
+    font-size: 2rem;
+    color: aqua;
+}
+
